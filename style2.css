@@ -1,0 +1,56 @@
+body{
+    background-color: #feda6a;
+    background-image: url("wer.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    line-height: 30px;
+   
+    
+
+    
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #585858;
+
+
+    
+}
+
+.rectangle1{
+    height: 350px;
+    width: 350px;
+    background-color:#393f4d;
+    margin: auto;
+    margin-bottom:30px ;
+    background-image: url("photo.jpeg") ;
+    background-size: cover;
+    opacity: 0.7;
+
+
+    
+}
+
+.rectangle2{
+  height: 350px;
+  width: 350px;
+  background-color:#393f4d;
+  margin: auto;
+  background-image: url("image.jpeg") ;
+  background-size: cover;
+  opacity: 0.7;
+}
+.rectangle1:hover {
+    background-color: #393939 ;
+    transition: transform 1s ease;
+    transform: scale(1.15);
+    opacity: 1;
+}
+.rectangle2:hover {
+    background-color: #fa625f;
+    transition: transform 1s ease;
+    transform: scale(1.15);
+    opacity: 1;
+    
+  }
+
